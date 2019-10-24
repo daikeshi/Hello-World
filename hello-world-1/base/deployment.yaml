@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: the-deployment
+  name: hello-world-1-deployment
 spec:
   replicas: 3
   template:
@@ -21,10 +21,10 @@ spec:
         - name: ALT_GREETING
           valueFrom:
             configMapKeyRef:
-              name: the-map
+              name: hello-world-1-map
               key: altGreeting
         - name: ENABLE_RISKY
           valueFrom:
             configMapKeyRef:
-              name: the-map
+              name: hello-world-1-map
               key: enableRisky

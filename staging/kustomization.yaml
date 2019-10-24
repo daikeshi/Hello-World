@@ -3,8 +3,8 @@ commonLabels:
   variant: staging
   org: acmeCorporation
 commonAnnotations:
-  note: Hello, I am staging!
+  note: Hello, I am staging from hello-world-1!
 resources:
-  - ../overlays/application
+  - ../hello-world-1/overlays/application
 patchesStrategicMerge:
 - map.yaml

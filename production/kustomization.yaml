@@ -3,8 +3,6 @@ commonLabels:
   variant: production
   org: acmeCorporation
 commonAnnotations:
-  note: Hello, I am production!
+  note: Hello, I am production from hello-world-1!
 resources:
-- ../overlays/application
-patchesStrategicMerge:
-- deployment.yaml
+- ../hello-world-1/overlays/application
