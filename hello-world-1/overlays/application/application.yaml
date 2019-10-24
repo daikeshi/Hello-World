@@ -17,13 +17,9 @@ spec:
   descriptor:
     type: hello-world
     version: v1beta1
-    description: ""
-    maintainers: []
-    owners: []
     keywords:
      - hello-world
      - kustomize
     links:
     - description: About
-      url: ""
   addOwnerRef: true
