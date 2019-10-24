@@ -5,6 +5,6 @@ commonLabels:
 commonAnnotations:
   note: Hello, I am production!
 resources:
-- ../../base
+- ../application
 patchesStrategicMerge:
 - deployment.yaml
